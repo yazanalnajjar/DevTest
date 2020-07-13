@@ -8,6 +8,6 @@ This is a list of recommendations to make this project better
 
 2.For Architecture if we used backend api in seprated folder and name it and put all the file the we will use in front end togther
 
-3.For UI if we make notification bar that after logged in successfully or unsuccessfully
+3.For Performance if we used the as a seprated component and the welcome page another seprated component to reuse in any where we need it 
 
-4.FixBug We should not send user data when post request succuss  
+4.FixBug We should'nt send user data when post request succuss  
