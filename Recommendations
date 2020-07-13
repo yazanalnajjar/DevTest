@@ -4,10 +4,10 @@ This is a list of recommendations to make this project better
 
 // Please make your recommendations as clear as possible with only a few sentences 
 
-1.
+1.For security perpose the best way to secure api using JWT to know which user who make login  and using refresh token to prevent every time make login
 
-2.
+2.For Architecture if we used backend api in seprated folder and name it and put all the file the we will use in front end togther
 
-3.
+3.For UI if we make notification bar that after logged in successfully or unsuccessfully
 
-4.
+4.FixBug We should not send user data when post request succuss  

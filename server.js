@@ -27,7 +27,7 @@ app.post("/api/login", function (req, res) {
             "https://images.pexels.com/photos/91224/pexels-photo-91224.jpeg"
         };
 
-        res.status(200).send(user);
+        res.status(200).send({ ok: true, message: "Login successful" });
       } else
         res
           .status(400)

@@ -1,6 +1,4 @@
-body {
-  font-family: "Lato", sans-serif;
-}
+/* Try to make the img take a full size of screen using background-size:cover */
 .container-fluid .background {
   background-size: cover;
   background-position: center;
@@ -14,15 +12,16 @@ body {
   position: relative;
 }
 
-.container-fluid .background h1 {
+/* Try to make text center in the img */
+.container-fluid .background .welcome {
   font-size: 4rem;
   font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
-.container-fluid .background a {
-  display: inline;
-}
-
+/* Try to make the img reponsive using media query */
 @media (min-width: 576px) {
   .container-fluid .background h1 {
     font-size: 5.5rem;

@@ -46,16 +46,21 @@
               placeholder="Password"
             />
           </div>
+          
           <button type="submit" class="btn btn-default" ng-click="login()">
             Login
           </button>
         </div>
       </div>
       <div ng-show="user" class="background">
-        <h1>Welcome {{user.name}}</h1>
+        <!-- Try to make the text in the center of img  in style.css -->
+        <h1 class="welcome">
+          Welcome {{user.name}}
+        </h1>
         <a href="#" ng-click="newPasswordMode = true" ng-hide="newPasswordMode"
           >Change Password</a
         >
+        <!-- Change profile pic from backend to make the page looks better -->
         <img src="{{user.profilePic}}" />
         <div ng-show="newPasswordMode">
           <label for="newPassword">New Password</label>
