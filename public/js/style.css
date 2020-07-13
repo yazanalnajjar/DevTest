@@ -1,0 +1,41 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+.container-fluid .background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.container-fluid .background h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.container-fluid .background a {
+  display: inline;
+}
+
+@media (min-width: 576px) {
+  .container-fluid .background h1 {
+    font-size: 5.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .container-fluid .background h1 {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid .background h1 {
+    font-size: 7.5rem;
+  }
+}
